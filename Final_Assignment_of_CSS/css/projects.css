@@ -1,0 +1,81 @@
+#projects{
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    background-color: 	#8DC73F; 
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#projects>h1{
+      
+    color: white;
+    font-size: 50px;
+    margin: 0px;
+}
+#projects>form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+}
+#projects>form>input[type="text"]{
+    height: 25px;
+    border-radius: 10px 10px;
+    text-align: center;
+    border-color: #FEBD19;
+}
+#projects>form>button[type="submit"]{
+    height: auto;
+    border-radius: 5px 5px;
+    box-shadow: 3px 3px 10px #FEBD19 ;
+    color:  black;
+    background: #FEBD19;
+    width: 200px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+#projects>form>input[type="text"]:focus{
+    font-weight: bolder;
+    font-size: 15px;
+    color: #e0474c;
+    letter-spacing: 2px;
+}
+#projects>form>button[type="submit"]:hover{
+    font-weight: bolder;
+    font-size: 15px;
+      color: black;
+}
+#projects>p{
+     color: white;
+    text-align: center;
+}
+/*---------------media--------------------------*/
+
+@media only screen and (max-width:1000px){
+    #projects {
+        height: auto;
+        padding: 0px;
+        width: 100%;
+    }
+    #projects form{
+        width: 100%;
+        margin: 0px auto;
+        flex-direction: column;
+    }
+    #projects form input{
+        margin: 10px 10px;
+    }
+    #projects>h1{
+      
+    color: white;
+    font-size: 30px;
+    margin: 0px;
+}
+}

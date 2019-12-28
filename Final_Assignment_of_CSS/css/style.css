@@ -1,0 +1,34 @@
+@import url("./header.css");
+@import url("./advantages.css");
+@import url("./about.css");
+@import url("./services.css");
+@import url("./portfolio.css");
+@import url("./process.css");
+@import url("./people.css");
+@import url("./skills.css");
+@import url("./projects.css");
+@import url("./contact.css");
+@import url("./map.css");
+
+/*---------------media--------------------------*/
+
+@media only screen and (max-width:1000px){
+body{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+}
+@font-face{
+    font-family:OpenSansPara;
+     src: url('../fonts/OpenSans-Light.ttf');
+}
+@font-face{
+    font-family:OpenSansHead;
+     src: url('../fonts/OpenSans-SemiBold.ttf');
+}
+body{
+    font-family: OpenSansPara;
+}
+h1{
+    font-family: OpenSansHead;
+}

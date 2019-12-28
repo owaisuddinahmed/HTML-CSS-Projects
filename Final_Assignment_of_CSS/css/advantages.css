@@ -1,0 +1,47 @@
+#advantages{
+    width: 100%;
+    height: auto;
+}
+.adv-head{
+   text-align: center;
+}
+.adv-head h1{
+    margin: 10px auto;
+}
+.adv-head h1 span{
+    color: #678E19;
+}
+.adv-content img{
+    height: auto;
+    width: 180px;
+}
+.adv-content {
+    width: 100%;
+     display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.img-block p strong{
+    color: black;
+}
+.img-block p{
+    color: slategrey;
+}
+.adv-head p { 
+    color: slategrey;
+}
+/*---------------media--------------------------*/
+
+@media only screen and (max-width:1000px){
+    .adv-content {
+     display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+}
+
+
+
+
+
+

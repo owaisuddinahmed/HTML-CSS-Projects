@@ -1,0 +1,33 @@
+*{
+   font-family: Georgia;
+    text-align: left;
+    
+      margin-left: 1em;
+    text-align: justify;
+}
+.into_head::first-letter{
+    font-size: 30px;
+  font-weight:bolder;
+}
+
+.intro{
+    line-height: 30px;
+    word-spacing: 5px;
+    text-align: justify;
+  
+}
+
+ul>li>a{
+    line-height: 40px;
+    word-spacing: 5px;
+    
+}
+ul>li>a:hover{
+    color: blue;
+}
+ul>li>a:active{
+    color: green;
+}
+.shadow{
+     text-shadow: 5px 1px 3px #666666;
+}
